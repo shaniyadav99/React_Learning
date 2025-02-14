@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    border: 1px solid red;
+}
+.main > div {
+    height: 250px;
+    width: 70%;
+    border: 2px solid teal;
+    justify-content: center;
+    align-items: center;
+}
+.main > div > h3 {
+    background-color: orange;
+    text-align: center;
+    padding-top: 40px;
+    
+}
